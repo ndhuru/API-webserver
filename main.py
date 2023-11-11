@@ -1,6 +1,16 @@
 '''
 
-Enjoy your pizza Mr. Stern!
+Made by Scrum Team Doornail
+
+             _ _ 
+            (_) |
+ _ __   __ _ _| |
+| '_ \ / _` | | |
+| | | | (_| | | |
+|_| |_|\__,_|_|_|
+
+
+Pizza is on us, enjoy it Mr. Stern!
                                    ,(  `-.
                                  ,': `.   `.
                                ,` *   `-.   \
@@ -21,6 +31,7 @@ Enjoy your pizza Mr. Stern!
     i'
     :
 
+
 '''
 
 from flask import Flask, request, jsonify
@@ -34,6 +45,7 @@ app = Flask(__name__)
 #route for index
 @app.route('/')
 def index():
+  #html
     return '''
     <html>
     <head>
